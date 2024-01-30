@@ -1,2 +1,2 @@
 # Programaci-n-Visual
-Tarea y códigos html  
+Tarea y códigos html  Alumna: Karime Lizeth Sánchez Ortega
