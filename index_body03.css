@@ -1,0 +1,23 @@
+body{
+    margin: 500;
+    padding: 500;
+}
+
+table{
+    width: 50%;
+    height: 200px;
+  }
+
+#box{
+    background-color: rgb(17, 23, 59);
+    color:aliceblue;
+    text-align: center;
+}
+
+#box1{
+    background-color: rgb(121, 156, 194);
+}
+
+#box2{
+    background-color: rgb(182, 221, 255);
+}

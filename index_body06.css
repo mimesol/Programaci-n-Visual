@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li{
+    margin: 0;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: midnightblue;
+    width: 120px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: slategray;
+}
+
+#box{
+    background-color: aqua;
+    margin: 100px;
+    padding: 50px;
+    border: 10px solid cornflowerblue;
+    border-radius: 50px;
+    box-shadow: 5px 10px 10px 0 #1e414f;
+}
+
+#box1{
+    background-color: mediumpurple;
+}
+
+#titulo{
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 620;
+    font-style: italic;
+    text-shadow: 5px 10px 10px rgb(99, 124, 170);
+    text-align: center;
+}
+
+.elemento{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    transition: background-color 5s ease, height 2s ease, width 2s ease;
+}
+.elemento:hover{
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    transform: rotate(45deg);
+}
+
+.circulo{
+    background-color: blue;
+    
+    width: 150px;
+    height: 150px;
+    transition: background-color 5s ease, height 2s ease, width 2s ease;
+}
+.circulo:hover{
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    transform: rotate(45deg);
+}

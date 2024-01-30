@@ -1,0 +1,70 @@
+/*a{
+    display: none;
+    display: inline-block; -------- Despues del parrafo o bloque
+} 
+
+p{
+    display: inline;
+}
+*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: red;
+}
+
+nav{
+    background-color: aqua;
+}
+
+article{
+    background-color: chartreuse;
+}
+
+aside{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: burlywood;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, nav{
+    flex: 1;
+}
+
+selection{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+article{
+    flex: 4;
+}
+
+aside{
+    flex: 1;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer div{
+    flex: 1;
+}

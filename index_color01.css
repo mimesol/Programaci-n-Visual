@@ -1,0 +1,39 @@
+body{
+    color: beige;
+    background-image: url(draco.jpg);
+    background-repeat: repeat-x;
+}
+
+#titulo{
+    color:rgb(21, 1, 40);
+}
+
+.parrafo{
+    color:aquamarine;
+
+}
+
+div{
+    background-color: rgb(126, 103, 137);
+    width: 650px;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: powderblue;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li a:hover{
+        background-color: rgb(69, 226, 200);
+}

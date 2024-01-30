@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width,
+	inicial-scale=1.0">
+	<title>Document</title>
+	<meta name="Description"
+	content="Pagina oficial del UPLC">
+	<style>
+		body{
+			background-color: black;
+			color:azure;
+		}
+	</style>
+</head>
+<body>
+	<!--Esto es un comentario -->
+	<h1>Formularios 2da parte</h1>
+	<form action = "">
+		<label for="Correo">
+			Correo Electrónico</label>
+		<input type="Email"
+			id="Correo">
+		<input type="Submit"
+			id="Enviar">
+		<br>
+		<label for="Con">
+			Contraseña</label>
+		<input type="Texto"
+			id="Con">
+		<br>
+		<br>
+		<label for="Edad">Edad</label>
+		<input type="number" min="1" max="35">
+		<br>
+		<label
+		for="Telefono">Teléfono</label>
+		<input type="Tel" pattern="[0-9]{3}-[0-9]{4}"
+		placeholder="Formato es 753-000-0000">
+		<br>
+		<label for="Foto">Tu Foto</label>
+		<input type="File">
+		<br>
+		<label for="Recordar">Recordar Contraseña</label>
+		<input type="Checkbox" value=".">
+		<br><br>
+		<label for="Texto">Descripción</label>
+		<br>
+		<textarea name="Texto" id="Texto" cols="20" rows="10">
+		</textarea>
+		<br><br>
+		<label for="Cumple">Fecha de Nacimiento</label>
+		<br>
+		<input type="date">
+	</form>
+</body>
+</html>
